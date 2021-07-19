@@ -8,11 +8,7 @@
   },
   "scripts": {
     "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
-    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier:solidity"
-    }
+    "prettier:solidity": "./node_modules/.bin/prettier --write contracts/**/*.sol",
+    "husky-install": "husky install"
   }
 }
